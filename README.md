@@ -56,6 +56,6 @@
 - Sources
 
 ## Homework Assignment (Due: Sunday, February 7)
-- Complete [Code Academy HTML/CSS](https://www.codecademy.com/learn/web)
+- Complete [Code Academy HTML/CSS](https://www.codecademy.com/learn/web) (Change of plans: don't do this yet!)
 - Complete [Week 3 Labs](lab) (Lab 2, Part 4 is an Optional Challenge)
-- Complete [Week 3 Assignment](assignment)
+- Complete [Week 3 Assignment](assignment) (Change of plans: don't do this yet!)
