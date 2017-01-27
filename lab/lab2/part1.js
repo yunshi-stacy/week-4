@@ -76,4 +76,4 @@ Which games are exclusive to collections? In other words, only owned by either J
 
 var query8;
 
-console.log('Which games are exclusive to collections? In other words, only owned by either Jeff or Nathan.', query8);
+console.log('Which games are exclusive to one collection? In other words, only owned by either Jeff or Nathan (but not both!).', query8);

@@ -9,7 +9,6 @@ Instructions: Write a function that *always* returns the number 1.
 ===================== */
 
 var justOne = function() {
-
 };
 
 console.log('justOne success:', justOne() === 1);
@@ -19,7 +18,6 @@ Instructions: Write a function that returns true if a number is even.
 ===================== */
 
 var isEven = function() {
-
 };
 
 console.log('isEven success:', isEven(2) === true && isEven(3) === false);
@@ -30,7 +28,6 @@ Instructions: Write a function that *always* returns false.
 ===================== */
 
 var justFalse = function() {
-
 };
 
 console.log('justFalse success:', justFalse() === false);
@@ -40,7 +37,6 @@ Instructions: Write a function that takes a boolean value and returns its opposi
 ===================== */
 
 var not = function() {
-
 };
 
 console.log('not success:', not(true) === false);
@@ -51,7 +47,6 @@ Instructions: Write a function that returns true if a number is odd
 ===================== */
 
 var isOdd = function() {
-
 };
 
 console.log('isOdd success:', isOdd(4) === false);
@@ -61,7 +56,6 @@ Instructions: Write a function that takes a list of numbers and returns a list w
 ===================== */
 
 var filterOutLessThan10 = function() {
-
 };
 
 console.log('filterOutLessThan10 success:', filterOutLessThan10([4, 11]) === [11]);
@@ -74,7 +68,7 @@ Instructions: Let's bring it all together. Write a function that returns only od
 ===================== */
 
 var filter = function(array, func) {
-
 };
 
 console.log('filter success:', filter([4, 11], isOdd) === [11]);
+

@@ -24,8 +24,8 @@
     // If we have '19104 - 1234', splitting and taking the first (0th) element
     // as an integer should yield a zip in the format above
     if (typeof schools[i].ZIPCODE === 'string') {
-      split = schools[i].ZIPCODE.split(' ');
-      normalized_zip = parseInt(split[0]);
+      var split = schools[i].ZIPCODE.split(' ');
+      var normalized_zip = parseInt(split[0]);
       schools[i].ZIPCODE = normalized_zip;
     }
 
@@ -81,11 +81,11 @@
 
     // Constructing the styling  options for our map
     if (filtered_data[i].HAS_HIGH_SCHOOL){
-      color = '#0000FF';
+      color = '#0000FF'; // blue
     } else if (filtered_data[i].HAS_MIDDLE_SCHOOL) {
-      color = '#00FF00';
+      color = '#00FF00'; // green
     } else {
-      color = '##FF0000';
+      color = '#FF0000'; //red
     }
     // The style options
     var pathOpts = {'radius': filtered_data[i].ENROLLMENT / 30,
