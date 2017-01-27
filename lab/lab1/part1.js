@@ -15,12 +15,13 @@ console.log('plusOne success:', plusOne(99) === 100);
 
 /* =====================
 Instructions: "Write a function, age, that takes a birth year and returns an age in years."
-Example: "age(2000) should return 16"
+(Let's just assume this person was born January 1 at 12:01 AM)
+Example: "age(2000) should return 17"
 ===================== */
 
 var age = function(birth) {};
 
-console.log('age success:', age(1971) === 45);
+console.log('age success:', age(1971) === 46);
 
 /* =====================
 Instructions: "Write a function that returns true for numbers over 9000 and false otherwise"
